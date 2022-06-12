@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  cursor: default;
+  transition: all 0.3s ease;
+}
+
+a {
+  cursor: pointer;
+}
+
+input {
+  cursor: text;
+  font-family: "Poiret One", cursive;
+}
+
+.active {
+  color: #000;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+footer {
+  background-color: #f7fafc;
+}
+
+.icons {
+  opacity: 0.5;
+  margin: 0 0.4rem;
+  cursor: pointer !important;
+}
+
+.name {
+  cursor: pointer;
+}
+
+.icons:hover {
+  cursor: pointer !important;
+  opacity: 1;
+}
+
+button {
+  cursor: pointer;
+}
+
+.contact {
+  font-family: "Poiret One", cursive;
+}
+
+.contact h1,
+.contact p {
+  text-transform: uppercase;
+}
+
+@media (max-width: 765px) {
+  #container {
+    display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  #navigation {
+    font-size: 13px;
+  }
+}
